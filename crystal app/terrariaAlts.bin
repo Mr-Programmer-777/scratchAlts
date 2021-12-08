@@ -1,0 +1,11 @@
+crystal.apps {
+  crystalVersion = "4.2"
+  crystalVersionIsLegacy = true
+  }
+if checkForInstall = 0
+  crystal.cmd {
+    crystal.apps.get hookApi.4.2
+    crystal.hooks find terraria.exe
+    crystal.hooks terraria.exe > pb.players(playersImport) method -fl:3f,4f,0f
+  }
+>n
